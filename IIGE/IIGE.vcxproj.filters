@@ -13,10 +13,72 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\IIGE">
+      <UniqueIdentifier>{33d5af37-5909-4edb-827b-8745a2132e12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IIGE\ecs">
+      <UniqueIdentifier>{952cf2e5-df79-46ad-b5a5-a87a4f556da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IIGE\ecs\components">
+      <UniqueIdentifier>{09af34eb-ff82-4ccb-8f51-07791533acfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IIGE\ecs\systems">
+      <UniqueIdentifier>{5477d1f2-b24e-47fc-89fe-4151fdc7d2fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\IIGE\graphics">
+      <UniqueIdentifier>{5be0fad5-29e9-46d5-b452-f27ac2abc908}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IIGE\ecs\entt.h">
+      <Filter>Header Files\IIGE\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\ecs\exceptions.h">
+      <Filter>Header Files\IIGE\ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\ecs\systems\collision.h">
+      <Filter>Header Files\IIGE\ecs\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\ecs\systems\draw.h">
+      <Filter>Header Files\IIGE\ecs\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\ecs\systems\move.h">
+      <Filter>Header Files\IIGE\ecs\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\ecs\systems\system.h">
+      <Filter>Header Files\IIGE\ecs\systems</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\ecs\components\collision.h">
+      <Filter>Header Files\IIGE\ecs\components</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\ecs\components\component.h">
+      <Filter>Header Files\IIGE\ecs\components</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\ecs\components\spatial.h">
+      <Filter>Header Files\IIGE\ecs\components</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\scene.h">
+      <Filter>Header Files\IIGE</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\systems_manager.h">
+      <Filter>Header Files\IIGE</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\loop.h">
+      <Filter>Header Files\IIGE</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\window.h">
+      <Filter>Header Files\IIGE</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\core.h">
+      <Filter>Header Files\IIGE</Filter>
+    </ClInclude>
+    <ClInclude Include="IIGE\window_loop_interop.h">
+      <Filter>Header Files\IIGE</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

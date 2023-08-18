@@ -1,0 +1,9 @@
+{
+"type": 0,
+"texture": "data/textures/Explosion03.png",
+"origin": {"x": 64, "y": 64},
+"frames_size": {"x": 128, "y": 128},
+"frames_offset": {"x": 0, "y": 0},
+"start_coords": {"x": 0, "y": 0},
+"frames_amount": 16
+}

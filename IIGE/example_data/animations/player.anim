@@ -1,0 +1,9 @@
+{
+"type": 0,
+"texture": "data/textures/sphere_preview.png",
+"origin": {"x": 32, "y": 32},
+"frames_size": {"x": 0, "y": 0},
+"frames_offset": {"x": 0, "y": 0},
+"start_coords": {"x": 0, "y": 0},
+"frames_amount": 0
+}

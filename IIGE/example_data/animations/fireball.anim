@@ -1,0 +1,9 @@
+{
+"type": 0,
+"texture": "data/textures/fireball_0.png",
+"origin": {"x": 57, "y": 32},
+"frames_size": {"x": 64, "y": 64},
+"frames_offset": {"x": 0, "y": 4},
+"start_coords": {"x": 0, "y": 0},
+"frames_amount": 8
+}
