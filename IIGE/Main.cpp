@@ -23,7 +23,6 @@ int main()
 		.graphics{graphics_initializer}
 		}};
 
-
 	iige::systems_manager systems_manager;
 	systems_manager.step.emplace([&scene](float delta_time)
 		{

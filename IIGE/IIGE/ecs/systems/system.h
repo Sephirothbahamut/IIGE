@@ -1,5 +1,4 @@
 #pragma once
-#include <bitset>
 
 namespace iige { class scene; class window; }
 

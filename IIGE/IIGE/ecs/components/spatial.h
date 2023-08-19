@@ -90,8 +90,8 @@ namespace iige::ecs::components::transform
 	struct interpolated
 		{
 		using translation = component<utils::math::vec2f, "interpolated_translation">;
-		using rotation = component<utils::math::angle::radf, "interpolated_rotation">;
-		using scaling = component<float, "interpolated_scaling">;
+		using rotation    = component<utils::math::angle::radf, "interpolated_rotation">;
+		using scaling     = component<float, "interpolated_scaling">;
 		};
 	struct speed
 		{
